@@ -1,0 +1,24 @@
+.filter-form {
+  margin-bottom: 30px;
+}
+
+.filter-title {
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+.filter-input {
+  width: 300px;
+  margin-right: 20px;
+  padding: 10px;
+
+  font-size: 22px;
+
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 1);
+  border-radius: 4px;
+
+  &:focus {
+    border: 2px solid rgb(161, 161, 161);
+  }
+}
